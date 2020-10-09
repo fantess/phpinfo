@@ -1,6 +1,6 @@
 services:
   phpinfo-svc:
-    image: fantess/phpinfo:latest
+    image: dbalaguedocker/phpinfo:latest
     deploy:
       placement:
         constraints:
