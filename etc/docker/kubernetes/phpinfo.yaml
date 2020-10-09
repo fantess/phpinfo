@@ -19,7 +19,7 @@ spec:
     spec:
       containers:
       -
-        image: fantess/phpinfo:latest
+        image: dbalaguedocker/phpinfo:latest
         livenessProbe:
           httpGet:
             path: /
