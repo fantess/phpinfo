@@ -1,6 +1,6 @@
 services:
   phpinfo-svc:
-    image: dbalaguedocker/phpinfo:latest
+    image: dbalaguedocker/phpinfo:1.7
     deploy:
       placement:
         constraints:
