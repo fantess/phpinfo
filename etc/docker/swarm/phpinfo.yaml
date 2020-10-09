@@ -1,6 +1,6 @@
 services:
   phpinfo-svc:
-    image: fantess/phpinfo:latest
+    image: fantess/phpinfo:1.6
     deploy:
       placement:
         constraints:
